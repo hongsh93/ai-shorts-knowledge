@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ai-shorts-knowledge</title><link rel="stylesheet" href="style.css"></head><body>
+<p class="nav"><a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+<p class="yt">This tool uses <b>YouTube API Services</b>. <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> · <a href="https://policies.google.com/privacy">Google Privacy Policy</a></p>
+<h1>ai-shorts-knowledge</h1>
+<p class="muted">An internal publishing tool for channels owned by its operator</p>
+
+<h2>What it is</h2>
+<p>ai-shorts-knowledge is a private, command-line tool that runs on the operator's own computer. It publishes videos that the operator produces to YouTube channels that the operator owns and manages. It is not a public application: there is no sign-up, no external users, and no web interface.</p>
+
+<h2>What it does</h2>
+<ul>
+<li>Uploads the operator's own videos to the operator's own channels, with title, description, tags and a scheduled publish time.</li>
+<li>Sets custom thumbnails and uploads caption files for those videos.</li>
+<li>Updates metadata and checks the processing / publishing status of those videos.</li>
+<li>Reads performance statistics for the operator's own channels, to decide which topics to make next.</li>
+</ul>
+
+<h2>YouTube API Services used</h2>
+<ul>
+<li>YouTube Data API v3: <code>videos.insert</code>, <code>videos.update</code>, <code>videos.list</code>, <code>thumbnails.set</code>, <code>captions.insert</code>, <code>channels.list</code> (mine=true)</li>
+<li>YouTube Analytics API: reports for the operator's own channels</li>
+</ul>
+<p>Each channel is authorized once by its owner (the operator) through Google OAuth. The tool only acts on channels that granted that authorization.</p>
+
+<h2>Data handling</h2>
+<p>The tool does not collect, store, sell or share data about other YouTube users or channels. See the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:knowledgetip687@gmail.com">knowledgetip687@gmail.com</a></p>
+<p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+</body></html>
